@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Multi-page professional website for coozy home Furniture - a modern furniture brand with elegant, minimal design and premium aesthetics",
+  "architectural_notes": [
+    "Neutral color palette: beige, white, light brown, soft grey, black accents",
+    "Elegant, minimal, premium design aesthetic",
+    "Mobile-friendly responsive layout with generous white space",
+    "Modern fonts with consistent button styles throughout",
+    "High-quality lifestyle imagery for furniture products"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Hero banner background image showing modern furniture in elegant interior setting (hero-banner.dim_1920x800.png)\n- Lifestyle image of a beige sofa in a minimalist living room (sofa-lifestyle.dim_800x600.png)\n- Modern bed with neutral linens in bright bedroom setting (bed-lifestyle.dim_800x600.png)\n- Elegant dining table with chairs in natural light (dining-table.dim_800x600.png)\n- Contemporary office desk setup with ergonomic chair (office-desk.dim_800x600.png)\n- Stylish coffee table in modern living space (coffee-table.dim_600x600.png)\n- Minimalist TV unit in contemporary setting (tv-unit.dim_600x600.png)\n- Wooden wardrobe in neutral bedroom interior (wardrobe.dim_600x600.png)\n- Modern side table with lamp (side-table.dim_600x600.png)\n- Ergonomic office chair in professional setting (office-chair.dim_600x600.png)\n- Contemporary storage unit for office space (storage-unit.dim_600x600.png)\n- About us brand story image showing craftsmanship detail (brand-story.dim_1200x600.png)\n- Living room category banner with modern furniture (living-room-banner.dim_1200x400.png)\n- Bedroom category banner with elegant bed setting (bedroom-banner.dim_1200x400.png)\n- Office furniture category banner with workspace (office-banner.dim_1200x400.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-home-page-with-a-large-hero-banner-containing-the-headline-elevate-your-living-space-and-subtext-about-premium-craftsmanship-and-modern-design-featuring-shop-now-and-explore-collections-call-to-action-buttons",
+      "title": "Create a Home page with a large hero banner containing the headline 'Elevate Your Living Space.' and subtext about premium craftsmanship and modern design, featuring 'Shop Now' and 'Explore Collections' call-to-action buttons",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-featured-products-section-to-the-home-page-displaying-4-6-furniture-products-with-images-names-and-prices-in-a-grid-layout",
+      "title": "Add a Featured Products section to the Home page displaying 4–6 furniture products with images, names, and prices in a grid layout",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-why-choose-us-section-on-the-home-page-highlighting-four-key-value-propositions-quality-durability-affordable-luxury-and-fast-delivery",
+      "title": "Create a Why Choose Us section on the Home page highlighting four key value propositions: Quality, Durability, Affordable Luxury, and Fast Delivery",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-testimonials-section-to-the-home-page-displaying-customer-reviews-and-feedback",
+      "title": "Add a Testimonials section to the Home page displaying customer reviews and feedback",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-newsletter-subscription-section-on-the-home-page-with-an-email-input-field-and-subscribe-button",
+      "title": "Create a Newsletter subscription section on the Home page with an email input field and subscribe button",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-shop-page-with-a-product-grid-layout-and-category-filters-for-living-room-bedroom-office-and-dining-displaying-products-with-clean-cards-showing-price-and-short-description",
+      "title": "Create a Shop page with a product grid layout and category filters for Living Room, Bedroom, Office, and Dining, displaying products with clean cards showing price and short description",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-living-room-category-page-displaying-sofas-coffee-tables-and-tv-units-with-a-modern-layout-and-category-banner",
+      "title": "Create a Living Room category page displaying sofas, coffee tables, and TV units with a modern layout and category banner",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-bedroom-category-page-displaying-beds-wardrobes-and-side-tables-with-a-category-specific-layout",
+      "title": "Create a Bedroom category page displaying beds, wardrobes, and side tables with a category-specific layout",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-office-furniture-category-page-displaying-desks-ergonomic-chairs-and-storage-units",
+      "title": "Create an Office Furniture category page displaying desks, ergonomic chairs, and storage units",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-us-page-with-brand-story-content-mission-and-vision-statements-and-commitment-to-sustainability-and-quality",
+      "title": "Create an About Us page with brand story content, mission and vision statements, and commitment to sustainability and quality",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-page-with-a-contact-form-phone-number-email-store-address-and-embedded-google-maps-section",
+      "title": "Create a Contact page with a contact form, phone number, email, store address, and embedded Google Maps section",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-navigation-menu-with-a-dropdown-under-shop-that-links-to-living-room-bedroom-and-office-furniture-category-pages",
+      "title": "Implement a navigation menu with a dropdown under 'Shop' that links to Living Room, Bedroom, and Office Furniture category pages",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-an-elegant-minimal-and-premium-design-system-with-a-neutral-color-palette-using-beige-white-light-brown-soft-grey-and-black-accents-throughout-all-pages",
+      "title": "Apply an elegant, minimal, and premium design system with a neutral color palette using beige, white, light brown, soft grey, and black accents throughout all pages",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-the-entire-website-is-mobile-friendly-with-responsive-layouts-adequate-spacing-for-premium-brand-feel-and-touch-optimized-navigation",
+      "title": "Ensure the entire website is mobile-friendly with responsive layouts, adequate spacing for premium brand feel, and touch-optimized navigation",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Home page with hero banner, featured products, Why Choose Us, testimonials, and newsletter",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Shop page with product grid and category filters",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Living Room category page with sofas, coffee tables, TV units",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Bedroom category page with beds, wardrobes, side tables",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Office Furniture category page with desks, chairs, storage",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "About Us page with brand story, mission, vision, sustainability",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Contact page with form, contact details, and Google Maps",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Dropdown navigation menu with Shop subpages",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "coozy home Furniture",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

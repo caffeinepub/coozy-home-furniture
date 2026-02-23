@@ -1,0 +1,315 @@
+{
+  "kind": "build_request",
+  "title": "Build multi-page furniture brand website with navigation and premium design",
+  "projectName": "Coozy Home Furniture",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a Home page with a large hero banner containing the headline 'Elevate Your Living Space.' and subtext about premium craftsmanship and modern design, featuring 'Shop Now' and 'Explore Collections' call-to-action buttons",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Large hero banner with headline: \"Elevate Your Living Space.\" Subtext about premium craftsmanship and modern design. \"Shop Now\" and \"Explore Collections\" buttons."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero banner spans full viewport width with large headline text",
+        "Subtext about premium craftsmanship is displayed below headline",
+        "Two prominent buttons labeled 'Shop Now' and 'Explore Collections' are visible",
+        "Banner uses neutral color palette with elegant typography"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Add a Featured Products section to the Home page displaying 4–6 furniture products with images, names, and prices in a grid layout",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Featured product section (4–6 products)."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section displays between 4 and 6 furniture products",
+        "Each product card shows an image, name, and price",
+        "Products are arranged in a responsive grid layout",
+        "Products include variety across furniture categories"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a Why Choose Us section on the Home page highlighting four key value propositions: Quality, Durability, Affordable Luxury, and Fast Delivery",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Why Choose Us section (Quality, Durability, Affordable Luxury, Fast Delivery)."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section displays four distinct value propositions",
+        "Each proposition includes Quality, Durability, Affordable Luxury, and Fast Delivery",
+        "Layout is clean and uses icons or visual elements for each value",
+        "Text clearly communicates the brand benefits"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Add a Testimonials section to the Home page displaying customer reviews and feedback",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Testimonials section."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section displays at least 2-3 customer testimonials",
+        "Each testimonial includes customer name and review text",
+        "Layout is visually appealing and fits the premium brand aesthetic",
+        "Testimonials are stored in the backend"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create a Newsletter subscription section on the Home page with an email input field and subscribe button",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Newsletter subscription section."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section includes an email input field",
+        "Subscribe button is prominently displayed",
+        "Email subscriptions are captured and stored in the backend",
+        "Confirmation feedback is shown after successful subscription"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Create a Shop page with a product grid layout and category filters for Living Room, Bedroom, Office, and Dining, displaying products with clean cards showing price and short description",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Shop Page: Product grid layout with filters (Living Room, Bedroom, Office, Dining). Clean product cards with price and short description."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Shop page displays all products in a responsive grid",
+        "Four category filters are available: Living Room, Bedroom, Office, Dining",
+        "Clicking a filter updates the product grid to show only items from that category",
+        "Each product card shows image, name, price, and short description",
+        "Product data is stored and retrieved from the backend"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Create a Living Room category page displaying sofas, coffee tables, and TV units with a modern layout and category banner",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Living Room Page: Sofas, coffee tables, TV units. Modern layout with category banner."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page displays products specifically for Living Room category",
+        "Product types include sofas, coffee tables, and TV units",
+        "Category banner is displayed at the top of the page",
+        "Layout follows modern design principles with adequate spacing"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Create a Bedroom category page displaying beds, wardrobes, and side tables with a category-specific layout",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Bedroom Page: Beds, wardrobes, side tables."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page displays products specifically for Bedroom category",
+        "Product types include beds, wardrobes, and side tables",
+        "Layout is consistent with other category pages",
+        "Products are retrieved from backend filtered by Bedroom category"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Create an Office Furniture category page displaying desks, ergonomic chairs, and storage units",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Office Furniture Page: Desks, ergonomic chairs, storage units."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page displays products specifically for Office category",
+        "Product types include desks, ergonomic chairs, and storage units",
+        "Layout matches the design consistency of other category pages",
+        "Products are filtered and displayed from backend"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Create an About Us page with brand story content, mission and vision statements, and commitment to sustainability and quality",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "About Us Page: Brand story. Mission and vision. Commitment to sustainability and quality."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page includes a compelling brand story section",
+        "Mission and vision statements are clearly displayed",
+        "Sustainability and quality commitments are highlighted",
+        "Content is formatted elegantly with appropriate typography and spacing"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Create a Contact page with a contact form, phone number, email, store address, and embedded Google Maps section",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Contact Page: Contact form. Phone number, email, store address. Google Maps section."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact form includes fields for name, email, and message",
+        "Form submissions are captured and stored in the backend",
+        "Phone number, email, and store address are displayed",
+        "Google Maps embed shows the store location",
+        "Form provides success/error feedback on submission"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Implement a navigation menu with a dropdown under 'Shop' that links to Living Room, Bedroom, and Office Furniture category pages",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Add a dropdown navigation menu under \"Shop\" linking to all category pages."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Main navigation includes a 'Shop' menu item",
+        "Hovering or clicking 'Shop' reveals a dropdown menu",
+        "Dropdown contains links to Living Room, Bedroom, and Office Furniture pages",
+        "Navigation is fully functional on desktop and mobile devices",
+        "Menu styling matches the premium brand aesthetic"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Apply an elegant, minimal, and premium design system with a neutral color palette using beige, white, light brown, soft grey, and black accents throughout all pages",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "The design should be elegant, minimal, and premium with a neutral color palette (beige, white, light brown, soft grey, black accents)."
+        ]
+      },
+      "acceptanceCriteria": [
+        "All pages use the specified neutral color palette: beige, white, light brown, soft grey, black accents",
+        "Design follows minimal and elegant principles with generous white space",
+        "Typography uses modern, professional fonts",
+        "Button styles are consistent across all pages",
+        "Overall aesthetic conveys a premium furniture brand"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Ensure the entire website is mobile-friendly with responsive layouts, adequate spacing for premium brand feel, and touch-optimized navigation",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Keep layout spacious, clean, mobile-friendly, and professional.",
+          "Check mobile view",
+          "Adjust spacing (premium brands use more white space)"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All pages are fully responsive and work on mobile, tablet, and desktop",
+        "Touch targets are appropriately sized for mobile interaction",
+        "Spacing is generous and conveys a premium feel",
+        "Navigation menu adapts appropriately for mobile (hamburger menu)",
+        "Images and layouts scale properly without breaking"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use only React, TypeScript, Tailwind CSS for frontend implementation",
+    "Backend must use Motoko with single-actor architecture",
+    "Navigation structure must support Shop as parent with Living Room, Bedroom, and Office as subpages",
+    "Do not modify immutable frontend paths: useInternetIdentity, useActor, main.tsx, components/ui"
+  ],
+  "nonGoals": [
+    "E-commerce checkout or payment processing",
+    "User account creation or authentication (beyond Internet Identity if needed)",
+    "Real-time inventory tracking",
+    "Product review submission functionality",
+    "Integration with external furniture databases or APIs",
+    "Shopping cart functionality"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Hero banner background image showing modern furniture in elegant interior setting (hero-banner.dim_1920x800.png)",
+      "Lifestyle image of a beige sofa in a minimalist living room (sofa-lifestyle.dim_800x600.png)",
+      "Modern bed with neutral linens in bright bedroom setting (bed-lifestyle.dim_800x600.png)",
+      "Elegant dining table with chairs in natural light (dining-table.dim_800x600.png)",
+      "Contemporary office desk setup with ergonomic chair (office-desk.dim_800x600.png)",
+      "Stylish coffee table in modern living space (coffee-table.dim_600x600.png)",
+      "Minimalist TV unit in contemporary setting (tv-unit.dim_600x600.png)",
+      "Wooden wardrobe in neutral bedroom interior (wardrobe.dim_600x600.png)",
+      "Modern side table with lamp (side-table.dim_600x600.png)",
+      "Ergonomic office chair in professional setting (office-chair.dim_600x600.png)",
+      "Contemporary storage unit for office space (storage-unit.dim_600x600.png)",
+      "About us brand story image showing craftsmanship detail (brand-story.dim_1200x600.png)",
+      "Living room category banner with modern furniture (living-room-banner.dim_1200x400.png)",
+      "Bedroom category banner with elegant bed setting (bedroom-banner.dim_1200x400.png)",
+      "Office furniture category banner with workspace (office-banner.dim_1200x400.png)"
+    ],
+    "edits": []
+  }
+}

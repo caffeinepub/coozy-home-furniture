@@ -1,0 +1,17 @@
+{
+  "frontend/src/App.tsx": "Main application component that sets up TanStack Router with all page routes including home, shop, category pages (living room, bedroom, office), about, and contact, wrapped in a Layout component.",
+  "frontend/src/components/Layout.tsx": "Layout wrapper component that provides consistent structure with Navigation header, main content area with Outlet for route rendering, and Footer across all pages.",
+  "frontend/src/components/Navigation.tsx": "Responsive navigation component with logo, desktop menu with Shop dropdown (linking to category pages), mobile hamburger menu, and smooth transitions following the premium design aesthetic with fixed Tailwind class conflicts.",
+  "frontend/src/components/Footer.tsx": "Footer component with brand info, navigation links organized in columns, contact details, copyright notice, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/ProductCard.tsx": "Reusable product card component displaying product image with hover zoom effect, name, description, and price in a clean, minimal layout.",
+  "frontend/src/pages/Home.tsx": "Home page featuring hero banner with CTA buttons, featured products grid, Why Choose Us section with four value propositions, customer testimonials, and newsletter subscription form.",
+  "frontend/src/pages/Shop.tsx": "Shop page with category filter buttons (All, Living Room, Bedroom, Office, Dining) and responsive product grid displaying filtered products from backend.",
+  "frontend/src/pages/LivingRoom.tsx": "Living Room category page with banner image and product grid filtered to show only living room furniture (sofas, coffee tables, TV units).",
+  "frontend/src/pages/Bedroom.tsx": "Bedroom category page with banner image and product grid filtered to show only bedroom furniture (beds, wardrobes, side tables).",
+  "frontend/src/pages/Office.tsx": "Office Furniture category page with banner image and product grid filtered to show only office furniture (desks, chairs, storage units).",
+  "frontend/src/pages/About.tsx": "About Us page featuring brand story with hero image, mission and vision statements, and commitment to sustainability with detailed sections and icons.",
+  "frontend/src/pages/Contact.tsx": "Contact page with contact form (name, email, message), contact information cards (address, phone, email), and embedded Google Maps showing store location with updated Tailwind v3 classes.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for fetching featured products, products by category, testimonials, and newsletter subscription mutation with proper cache invalidation.",
+  "frontend/src/index.css": "Global styles with OKLCH-based neutral color palette (beige, white, light brown, soft grey, black accents), Inter font family, and premium design tokens for light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending default theme with custom neutral color palette, Inter font family, generous spacing scale, and soft shadows for premium aesthetic."
+}

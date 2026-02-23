@@ -1,0 +1,270 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Build multi-page furniture brand website with navigation and premium design",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Create a Home page with a large hero banner containing the headline 'Elevate Your Living Space.' and subtext about premium craftsmanship and modern design, featuring 'Shop Now' and 'Explore Collections' call-to-action buttons",
+      "acceptanceCriteria": [
+        "Hero banner spans full viewport width with large headline text",
+        "Subtext about premium craftsmanship is displayed below headline",
+        "Two prominent buttons labeled 'Shop Now' and 'Explore Collections' are visible",
+        "Banner uses neutral color palette with elegant typography"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "create",
+          "description": "Create Home page with hero banner section displaying headline 'Elevate Your Living Space.', subtext about premium craftsmanship and modern design, and two CTA buttons ('Shop Now' and 'Explore Collections'). Use the generated hero banner image at frontend/public/assets/generated/hero-banner.dim_1920x800.png as the background. Implement full viewport width layout with elegant typography following the neutral color palette."
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Add a Featured Products section to the Home page displaying 4–6 furniture products with images, names, and prices in a grid layout",
+      "acceptanceCriteria": [
+        "Section displays between 4 and 6 furniture products",
+        "Each product card shows an image, name, and price",
+        "Products are arranged in a responsive grid layout",
+        "Products include variety across furniture categories"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Add Featured Products section that fetches featured products from backend using getFeaturedProducts() method. Display products in a responsive grid layout (2-3 columns) with product cards showing image, name, and price. Ensure 4-6 products are displayed."
+        },
+        {
+          "path": "frontend/src/components/ProductCard.tsx",
+          "operation": "create",
+          "description": "Create reusable ProductCard component that displays product image, name, price, and optional description. Accept Product type from backend interface. Style with premium aesthetic using neutral color palette and adequate spacing."
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Create a Why Choose Us section on the Home page highlighting four key value propositions: Quality, Durability, Affordable Luxury, and Fast Delivery",
+      "acceptanceCriteria": [
+        "Section displays four distinct value propositions",
+        "Each proposition includes Quality, Durability, Affordable Luxury, and Fast Delivery",
+        "Layout is clean and uses icons or visual elements for each value",
+        "Text clearly communicates the brand benefits"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Add Why Choose Us section with four value propositions: Quality, Durability, Affordable Luxury, and Fast Delivery. Display in a grid layout with icons or visual elements for each value. Use clean layout with adequate spacing following premium design principles."
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Add a Testimonials section to the Home page displaying customer reviews and feedback",
+      "acceptanceCriteria": [
+        "Section displays at least 2-3 customer testimonials",
+        "Each testimonial includes customer name and review text",
+        "Layout is visually appealing and fits the premium brand aesthetic",
+        "Testimonials are stored in the backend"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Add Testimonials section that fetches testimonials from backend using getAllTestimonials() method. Display at least 2-3 testimonials with customer name and review text. Style with premium aesthetic and elegant layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Create a Newsletter subscription section on the Home page with an email input field and subscribe button",
+      "acceptanceCriteria": [
+        "Section includes an email input field",
+        "Subscribe button is prominently displayed",
+        "Email subscriptions are captured and stored in the backend",
+        "Confirmation feedback is shown after successful subscription"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Add Newsletter subscription section with email input field and subscribe button. Call backend subscribeToNewsletter(email) method on form submission. Display success/error feedback messages to user. Style form with premium aesthetic."
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Create a Shop page with a product grid layout and category filters for Living Room, Bedroom, Office, and Dining, displaying products with clean cards showing price and short description",
+      "acceptanceCriteria": [
+        "Shop page displays all products in a responsive grid",
+        "Four category filters are available: Living Room, Bedroom, Office, Dining",
+        "Clicking a filter updates the product grid to show only items from that category",
+        "Each product card shows image, name, price, and short description",
+        "Product data is stored and retrieved from the backend"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Shop.tsx",
+          "operation": "create",
+          "description": "Create Shop page with category filter buttons for Living Room, Bedroom, Office, and Dining. Fetch products from backend using getProductsByCategory() method based on selected filter. Display products in responsive grid layout using ProductCard component. Show all categories initially or default to first category."
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Create a Living Room category page displaying sofas, coffee tables, and TV units with a modern layout and category banner",
+      "acceptanceCriteria": [
+        "Page displays products specifically for Living Room category",
+        "Product types include sofas, coffee tables, and TV units",
+        "Category banner is displayed at the top of the page",
+        "Layout follows modern design principles with adequate spacing"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/LivingRoom.tsx",
+          "operation": "create",
+          "description": "Create Living Room category page with category banner using the generated image at frontend/public/assets/generated/living-room-banner.dim_1200x400.png. Fetch Living Room products from backend using getProductsByCategory(Category.livingRoom). Display products in modern grid layout using ProductCard component. Include product types: sofas, coffee tables, and TV units."
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Create a Bedroom category page displaying beds, wardrobes, and side tables with a category-specific layout",
+      "acceptanceCriteria": [
+        "Page displays products specifically for Bedroom category",
+        "Product types include beds, wardrobes, and side tables",
+        "Layout is consistent with other category pages",
+        "Products are retrieved from backend filtered by Bedroom category"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Bedroom.tsx",
+          "operation": "create",
+          "description": "Create Bedroom category page with category banner using the generated image at frontend/public/assets/generated/bedroom-banner.dim_1200x400.png. Fetch Bedroom products from backend using getProductsByCategory(Category.bedroom). Display products in grid layout using ProductCard component. Include product types: beds, wardrobes, and side tables."
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Create an Office Furniture category page displaying desks, ergonomic chairs, and storage units",
+      "acceptanceCriteria": [
+        "Page displays products specifically for Office category",
+        "Product types include desks, ergonomic chairs, and storage units",
+        "Layout matches the design consistency of other category pages",
+        "Products are filtered and displayed from backend"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Office.tsx",
+          "operation": "create",
+          "description": "Create Office Furniture category page with category banner using the generated image at frontend/public/assets/generated/office-banner.dim_1200x400.png. Fetch Office products from backend using getProductsByCategory(Category.office). Display products in grid layout using ProductCard component. Include product types: desks, ergonomic chairs, and storage units."
+        }
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "summary": "Create an About Us page with brand story content, mission and vision statements, and commitment to sustainability and quality",
+      "acceptanceCriteria": [
+        "Page includes a compelling brand story section",
+        "Mission and vision statements are clearly displayed",
+        "Sustainability and quality commitments are highlighted",
+        "Content is formatted elegantly with appropriate typography and spacing"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/About.tsx",
+          "operation": "create",
+          "description": "Create About Us page with brand story section, mission and vision statements, and sustainability/quality commitments. Use the generated brand story image at frontend/public/assets/generated/brand-story.dim_1200x600.png. Format content with elegant typography, generous spacing, and premium aesthetic following neutral color palette."
+        }
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "summary": "Create a Contact page with a contact form, phone number, email, store address, and embedded Google Maps section",
+      "acceptanceCriteria": [
+        "Contact form includes fields for name, email, and message",
+        "Form submissions are captured and stored in the backend",
+        "Phone number, email, and store address are displayed",
+        "Google Maps embed shows the store location",
+        "Form provides success/error feedback on submission"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Contact.tsx",
+          "operation": "create",
+          "description": "Create Contact page with contact form (name, email, message fields), contact information display (phone, email, store address), and Google Maps embed section. Implement form submission handling with success/error feedback. Style with premium aesthetic and clean layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "summary": "Implement a navigation menu with a dropdown under 'Shop' that links to Living Room, Bedroom, and Office Furniture category pages",
+      "acceptanceCriteria": [
+        "Main navigation includes a 'Shop' menu item",
+        "Hovering or clicking 'Shop' reveals a dropdown menu",
+        "Dropdown contains links to Living Room, Bedroom, and Office Furniture pages",
+        "Navigation is fully functional on desktop and mobile devices",
+        "Menu styling matches the premium brand aesthetic"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Navigation.tsx",
+          "operation": "create",
+          "description": "Create Navigation component with main menu including Home, Shop (with dropdown), About Us, and Contact links. Implement dropdown menu under Shop with links to Living Room, Bedroom, and Office Furniture category pages. Ensure mobile-responsive with hamburger menu for small screens. Style with premium aesthetic using neutral color palette."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Configure routing for all pages: Home (/), Shop (/shop), Living Room (/shop/living-room), Bedroom (/shop/bedroom), Office (/shop/office), About Us (/about), and Contact (/contact). Wire in the Navigation component to appear on all pages. Ensure proper route structure supporting Shop as parent with category subpages."
+        }
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "summary": "Apply an elegant, minimal, and premium design system with a neutral color palette using beige, white, light brown, soft grey, and black accents throughout all pages",
+      "acceptanceCriteria": [
+        "All pages use the specified neutral color palette: beige, white, light brown, soft grey, black accents",
+        "Design follows minimal and elegant principles with generous white space",
+        "Typography uses modern, professional fonts",
+        "Button styles are consistent across all pages",
+        "Overall aesthetic conveys a premium furniture brand"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Define global styles implementing the neutral color palette (beige, white, light brown, soft grey, black accents). Set up base typography with modern, professional fonts. Apply generous spacing and white space throughout. Define consistent button styles and other reusable UI elements following minimal and elegant design principles."
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Configure Tailwind with custom color palette including beige, light brown, soft grey, and black accent colors. Extend default theme with premium spacing scale, elegant typography settings, and custom component styles. Ensure configuration supports minimal and premium aesthetic throughout the application."
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Ensure the entire website is mobile-friendly with responsive layouts, adequate spacing for premium brand feel, and touch-optimized navigation",
+      "acceptanceCriteria": [
+        "All pages are fully responsive and work on mobile, tablet, and desktop",
+        "Touch targets are appropriately sized for mobile interaction",
+        "Spacing is generous and conveys a premium feel",
+        "Navigation menu adapts appropriately for mobile (hamburger menu)",
+        "Images and layouts scale properly without breaking"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Navigation.tsx",
+          "operation": "modify",
+          "description": "Enhance Navigation component with mobile-responsive hamburger menu that adapts for small screens. Ensure touch targets are appropriately sized (minimum 44px) for mobile interaction. Test and verify dropdown functionality works on touch devices."
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Add responsive utility classes and media query styles ensuring all layouts adapt properly to mobile, tablet, and desktop viewports. Apply generous spacing that maintains premium feel across all screen sizes. Ensure images scale responsively without breaking layouts."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-home-page-with-a-large-hero-banner-containing-the-headline-elevate-your-living-space-and-subtext-about-premium-craftsmanship-and-modern-design-featuring-shop-now-and-explore-collections-call-to-action-buttons",
+      "featureTitle": "Create a Home page with a large hero banner containing the headline 'Elevate Your Living Space.' and subtext about premium craftsmanship and modern design, featuring 'Shop Now' and 'Explore Collections' call-to-action buttons",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-a-featured-products-section-to-the-home-page-displaying-4-6-furniture-products-with-images-names-and-prices-in-a-grid-layout",
+      "featureTitle": "Add a Featured Products section to the Home page displaying 4–6 furniture products with images, names, and prices in a grid layout",
+      "files": [
+        "frontend/src/components/ProductCard.tsx",
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-why-choose-us-section-on-the-home-page-highlighting-four-key-value-propositions-quality-durability-affordable-luxury-and-fast-delivery",
+      "featureTitle": "Create a Why Choose Us section on the Home page highlighting four key value propositions: Quality, Durability, Affordable Luxury, and Fast Delivery",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-a-testimonials-section-to-the-home-page-displaying-customer-reviews-and-feedback",
+      "featureTitle": "Add a Testimonials section to the Home page displaying customer reviews and feedback",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-newsletter-subscription-section-on-the-home-page-with-an-email-input-field-and-subscribe-button",
+      "featureTitle": "Create a Newsletter subscription section on the Home page with an email input field and subscribe button",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-shop-page-with-a-product-grid-layout-and-category-filters-for-living-room-bedroom-office-and-dining-displaying-products-with-clean-cards-showing-price-and-short-description",
+      "featureTitle": "Create a Shop page with a product grid layout and category filters for Living Room, Bedroom, Office, and Dining, displaying products with clean cards showing price and short description",
+      "files": [
+        "frontend/src/pages/Shop.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-living-room-category-page-displaying-sofas-coffee-tables-and-tv-units-with-a-modern-layout-and-category-banner",
+      "featureTitle": "Create a Living Room category page displaying sofas, coffee tables, and TV units with a modern layout and category banner",
+      "files": [
+        "frontend/src/pages/LivingRoom.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-bedroom-category-page-displaying-beds-wardrobes-and-side-tables-with-a-category-specific-layout",
+      "featureTitle": "Create a Bedroom category page displaying beds, wardrobes, and side tables with a category-specific layout",
+      "files": [
+        "frontend/src/pages/Bedroom.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-an-office-furniture-category-page-displaying-desks-ergonomic-chairs-and-storage-units",
+      "featureTitle": "Create an Office Furniture category page displaying desks, ergonomic chairs, and storage units",
+      "files": [
+        "frontend/src/pages/Office.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-an-about-us-page-with-brand-story-content-mission-and-vision-statements-and-commitment-to-sustainability-and-quality",
+      "featureTitle": "Create an About Us page with brand story content, mission and vision statements, and commitment to sustainability and quality",
+      "files": [
+        "frontend/src/pages/About.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-contact-page-with-a-contact-form-phone-number-email-store-address-and-embedded-google-maps-section",
+      "featureTitle": "Create a Contact page with a contact form, phone number, email, store address, and embedded Google Maps section",
+      "files": [
+        "frontend/src/pages/Contact.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-navigation-menu-with-a-dropdown-under-shop-that-links-to-living-room-bedroom-and-office-furniture-category-pages",
+      "featureTitle": "Implement a navigation menu with a dropdown under 'Shop' that links to Living Room, Bedroom, and Office Furniture category pages",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Navigation.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-an-elegant-minimal-and-premium-design-system-with-a-neutral-color-palette-using-beige-white-light-brown-soft-grey-and-black-accents-throughout-all-pages",
+      "featureTitle": "Apply an elegant, minimal, and premium design system with a neutral color palette using beige, white, light brown, soft grey, and black accents throughout all pages",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-ensure-the-entire-website-is-mobile-friendly-with-responsive-layouts-adequate-spacing-for-premium-brand-feel-and-touch-optimized-navigation",
+      "featureTitle": "Ensure the entire website is mobile-friendly with responsive layouts, adequate spacing for premium brand feel, and touch-optimized navigation",
+      "files": [
+        "frontend/src/components/Navigation.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
